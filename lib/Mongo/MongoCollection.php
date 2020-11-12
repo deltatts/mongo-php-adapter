@@ -303,6 +303,7 @@ class MongoCollection
             'n' => 0,
             'err' => null,
             'errmsg' => null,
+            '_id' => $result->getInsertedId()
         ];
     }
 
